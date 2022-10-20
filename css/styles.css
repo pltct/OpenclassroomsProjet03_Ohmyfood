@@ -81,7 +81,6 @@ input{
         /* SECTION FONCTIONNEMENT */
 
 #section_fonctionnement{
-    border: 1px solid red;
     padding: 50px 20px;
 }
     
@@ -145,13 +144,8 @@ input{
         /* SECTION RESTAURANTS */
 
 #section_restaurant{
-    border: 1px solid red;
     padding: 50px 20px;
     background-color: rgb(245, 245, 245);
-}
-    
-#section_restaurant_1_2{
-    border: 1px solid blue;
 }
     
 #section_restaurant_1_2 img,
@@ -160,10 +154,6 @@ input{
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     height: 70%;
-}
-    
-#section_restaurant_3_4{
-    border: 1px solid green;
 }
     
 #restaurant_1,
@@ -195,6 +185,24 @@ figcaption{
 #section_restaurant i{
     position: absolute;
     right: 30px;
+}
+
+#restaurant_1,
+#restaurant_2{
+    position: relative;
+}
+
+#section_restaurant_1_2 .nouveau{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(0, 130, 90);
+    font-size: 14px;
+    border: 1px solid #99E2D0;
+    padding: 5px 12px;
+    background-color: #99E2D0;
+    border-radius: 2px;
+    font-weight: 500;
 }
 
 

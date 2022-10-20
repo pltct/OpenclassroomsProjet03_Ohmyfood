@@ -225,6 +225,11 @@ figcaption{
     padding-top: 9px;
     font-size: 18px;
 }
+
+#bloc_footer a{
+    text-decoration: none;
+    color: white;
+}
     
 .fa-utensils,
 .fa-handshake-angle{

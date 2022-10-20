@@ -76,3 +76,67 @@ input{
     margin-bottom: 25px;
     text-decoration: none;
 }
+
+
+    /* SECTION FONCTIONNEMENT */
+
+#section_fonctionnement{
+    border: 1px solid red;
+    padding: 50px 20px;
+}
+    
+#section_fonctionnement li{
+    background-color: rgb(245, 245, 245);
+    padding: 25px 0;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 25px 0;
+    border-radius: 20px;
+    list-style-type: none;
+    box-shadow: 0 5px 10px rgb(195, 195, 195);
+    position: relative;    
+}
+    
+#section_fonctionnement .fa-solid{
+    padding: 0 30px;
+    color: rgb(110, 110, 110);
+}
+    
+#section_fonctionnement a{
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+    
+#section_fonctionnement .fa-2{
+    position: absolute;
+    left: -11px;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 6px 8.5px;
+    background-color: #9356DC;
+}
+    
+#section_fonctionnement .fa-3{
+    position: absolute;
+    left: -13px;
+    font-size: 12.5px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 7px 7.5px;
+    background-color: #9356DC;
+}
+    
+#section_fonctionnement .fa-1{
+    position: absolute;
+    left: -11px;
+    font-size: 13px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 6px 9px;
+    background-color: #9356DC;
+}

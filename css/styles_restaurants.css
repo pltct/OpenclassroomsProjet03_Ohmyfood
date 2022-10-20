@@ -22,20 +22,23 @@ h2{
     
     /* HEADER */
     
-
-
 #logo_header{
+    border: 1px solid red;
     display: flex;
     justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#logo_header img{
     padding: 26px 0 14px;
     height: 75px;
-    box-shadow: 0px 3px 6px rgb(195, 195, 195);
-    align-items: center;
 }
 
 #logo_header i{
     position: absolute;
     left: 7%;
+    bottom: 30%;
 }
     
 

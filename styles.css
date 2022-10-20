@@ -1,0 +1,48 @@
+    /* Eléments principaux de la page */
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        font-family: "roboto", sans-serif;
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 21px;
+    }
+    
+    h2{
+        font-size: 27px
+    }
+    
+    
+        /* HEADER */
+    
+    #logo_header{
+        display: flex;
+        justify-content: center;
+        padding: 26px 0 14px;
+        height: 75px;
+        box-shadow: 0px 3px 6px rgb(195, 195, 195);
+    }
+    
+    #barre_de_recherche{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        font-size: 18px;
+        background-color: rgb(238, 238, 238);
+        margin-top: 5px;
+    } 
+    
+    input{
+        font-size: 18px;
+        padding-left: 20px;
+        width: 189px;
+        border: none;
+        background-color: transparent;
+    }

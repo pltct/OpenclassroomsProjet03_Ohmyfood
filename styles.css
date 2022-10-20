@@ -1,4 +1,4 @@
-    /* Eléments principaux de la page */
+        /* Eléments principaux de la page */
 
 *{
     margin: 0;
@@ -78,7 +78,7 @@ input{
 }
 
 
-    /* SECTION FONCTIONNEMENT */
+        /* SECTION FONCTIONNEMENT */
 
 #section_fonctionnement{
     border: 1px solid red;
@@ -139,4 +139,60 @@ input{
     border-radius: 30px;
     padding: 6px 9px;
     background-color: #9356DC;
+}
+
+
+        /* SECTION RESTAURANTS */
+
+#section_restaurant{
+    border: 1px solid red;
+    padding: 50px 20px;
+    background-color: rgb(245, 245, 245);
+}
+    
+#section_restaurant_1_2{
+    border: 1px solid blue;
+}
+    
+#section_restaurant_1_2 img,
+#section_restaurant_3_4 img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    height: 70%;
+}
+    
+#section_restaurant_3_4{
+    border: 1px solid green;
+}
+    
+#restaurant_1,
+#restaurant_2,
+#restaurant_3,
+#restaurant_4{
+    border-radius: 10px;
+    height: 270px;
+    margin-top: 30px;
+    box-shadow: 0 5px 10px rgb(195, 195, 195);
+}
+    
+#restaurant_1 a,
+#restaurant_2 a,
+#restaurant_3 a,
+#restaurant_4 a{
+    text-decoration: none;
+    color: black;
+}
+    
+figcaption{
+    padding: 13px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+#section_restaurant i{
+    position: absolute;
+    right: 30px;
 }

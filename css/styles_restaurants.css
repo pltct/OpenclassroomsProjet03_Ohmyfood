@@ -8,22 +8,12 @@
     
 body{
     font-family: "roboto", sans-serif;
-    font-size: 20px;
-}
-    
-h3{
-    font-size: 21px;
-}
-    
-h2{
-    font-size: 27px
 }
     
     
     /* HEADER */
     
 #logo_header{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,8 +29,89 @@ h2{
     position: absolute;
     left: 7%;
     bottom: 30%;
+    font-size: 21px;
+    color: black;
+}
+
+
+        /* SECTION MENU */
+h1{
+    font-family: "shrikhand", sans-serif;
+    font-weight: normal;
+}
+
+
+#menu{
+    padding: 15px;
+}
+
+#carte_menu{
+    
+}
+
+#carte_menu img{
+    width: 100%;
+}
+
+#carte_menu #menu{
+    border: 1px solid red;
+    border-radius: 40px;
+    width: 100%;
+    top: 100%;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: column;
+}
+
+#nom_restaurant{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 21px;
+    padding: 10px 20px 20px 0;
+}
+
+#nom_restaurant i{
+    font-size: 25px;
+}
+
+.repas{
+    border: 1px solid red;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: normal;
+    border-bottom: 3.5px solid #99E2D0;
+    padding-bottom: 5px;
+    width: 43px;
+}
+
+.assiette{
+    border: 1px solid red;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgb(200, 200, 200);
 }
     
+.assiette_description{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.prix{
+    font-weight: bold;
+}
+
+#bouton_commander{
+    border: 1px solid red;
+    text-align: center;
+    width: 100%;
+}
+
 
     /* FOOTER */
     
@@ -60,6 +131,11 @@ h2{
     list-style-type: none;
     padding-top: 9px;
     font-size: 18px;
+}
+
+#bloc_footer a{
+    text-decoration: none;
+    color: white;
 }
     
 .fa-utensils,

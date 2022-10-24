@@ -49,6 +49,10 @@ h1{
     width: 100%;
 }
 
+#carte_menu h3{
+    padding-bottom: 5px;
+}
+
 #carte_menu #menu{
     border-radius: 40px 40px 0 0;
     width: 100%;

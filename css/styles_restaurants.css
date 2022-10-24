@@ -101,11 +101,16 @@ h1{
 }
 
 #bouton_commander{
-    text-align: center;
     padding: 30px 0;
+    display: flex;
+    justify-content: center;
 }
 
-#bouton_commander button{
+#bouton_commander a{
+    text-decoration: none;
+}
+
+#bouton_commander p{
     font-size: 17px;
     color: white;
     border-radius: 30px;

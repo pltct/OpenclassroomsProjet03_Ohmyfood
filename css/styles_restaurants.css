@@ -47,6 +47,8 @@ h1{
 
 #carte_menu img{
     width: 100%;
+    height: 300px;
+    object-fit: cover;
 }
 
 #carte_menu h3{

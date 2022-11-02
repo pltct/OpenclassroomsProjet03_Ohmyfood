@@ -181,14 +181,68 @@ figcaption{
     flex-direction: column;
     justify-content: center;
 }
-    
-#section_restaurant i{
+
+#section_restaurant .descirption_restaurant{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coeur{
+    display: flex;
+}
+
+#section_restaurant .coeur{
     position: absolute;
     right: 30px;
+    bottom: 20px;
+}
+
+.coeur .plein{
+    display: none;
+}
+
+.coeur:hover .contour{
+    display: none;
+}
+
+.coeur:hover .plein{
+    display: block;
+    background: linear-gradient(172deg, #FF79DA,#9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: battement_coeur 1200ms cubic-bezier(0,0,.4,1);  
+}
+
+@keyframes battement_coeur {
+    0% {
+        transform: scale(0);
+    }
+
+    55% {
+        transform: scale(1.25);
+    }
+    58% {
+        transform: scale(1.05);
+    }
+    63% {
+        transform: scale(1.25);
+    }
+    68% {
+        transform: scale(1.05);
+    }
+    73% {
+        transform: scale(1.25);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 #restaurant_1,
-#restaurant_2{
+#restaurant_2,
+#restaurant_3,
+#restaurant_4{
     position: relative;
 }
 

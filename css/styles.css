@@ -77,6 +77,11 @@ input{
     text-decoration: none;
 }
 
+#bloc_main a:hover{
+    opacity: .8;
+    box-shadow: 0px 5px 8px rgb(110, 110, 110);
+}
+
 
         /* SECTION FONCTIONNEMENT */
 

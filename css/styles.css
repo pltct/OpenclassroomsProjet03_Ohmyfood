@@ -89,7 +89,7 @@ input{
     padding: 50px 20px;
 }
     
-#section_fonctionnement li{
+#section_fonctionnement .choix{
     background-color: rgb(245, 245, 245);
     padding: 25px 0;
     font-weight: bold;
@@ -111,6 +111,11 @@ input{
     color: black;
     align-items: center;
 }
+
+#section_fonctionnement .choix:hover{
+    background: #f4ebfe;
+}
+
     
 #section_fonctionnement .fa-2{
     position: absolute;
@@ -223,7 +228,6 @@ figcaption{
     0% {
         transform: scale(0);
     }
-
     55% {
         transform: scale(1.25);
     }

@@ -73,6 +73,7 @@ h1{
 
 .coeur{
     display: flex;
+    cursor: pointer;
 }
 
 .coeur .plein{
@@ -141,6 +142,7 @@ h1{
     background-color: white;
     box-shadow: 0 5px 10px rgb(200, 200, 200);
     display: flex;
+    cursor: pointer;
 }
 
 .assiette_titre_description{
@@ -172,6 +174,8 @@ h1{
     align-items: center;
 }
 
+
+
 .coche .valider{
     border: 1px solid #fff;
     border-radius: 50%;
@@ -183,7 +187,34 @@ h1{
 
 .assiette:hover .coche{
     display: flex;
+    transform-origin: right;
+    animation: slide 300ms;
 }
+
+@keyframes slide {
+    0%{
+        transform: scalex(0);
+    }
+    100%{
+        transform: scalex(1);
+
+    }
+}
+
+.assiette:hover .valider{
+    animation: rotation 300ms;
+}
+
+@keyframes rotation {
+    0%{
+        transform: rotate(-360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+
+    }
+}
+
 
 .assiette:hover .assiette_description h3,
 .assiette_description p{

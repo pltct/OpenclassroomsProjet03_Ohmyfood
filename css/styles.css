@@ -98,7 +98,8 @@ input{
     border-radius: 20px;
     list-style-type: none;
     box-shadow: 0 5px 10px rgb(195, 195, 195);
-    position: relative;    
+    position: relative;
+    cursor: pointer;  
 }
     
 #section_fonctionnement .fa-solid{

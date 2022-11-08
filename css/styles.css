@@ -102,7 +102,8 @@ input{
 }
     
 #section_fonctionnement .fa-solid{
-    padding: 0 30px;
+    padding-right: 5%;
+    padding-left: 8%;
     color: rgb(110, 110, 110);
 }
     

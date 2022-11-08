@@ -97,7 +97,6 @@ h1{
     0% {
         transform: scale(0);
     }
-
     55% {
         transform: scale(1.25);
     }
@@ -143,6 +142,27 @@ h1{
     box-shadow: 0 5px 10px rgb(200, 200, 200);
     display: flex;
     cursor: pointer;
+    animation: slideup 2s forwards;
+    opacity: 0;
+} 
+
+@keyframes slideup {
+    0%{
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.assiette_2{
+    animation-delay: 400ms;
+}
+
+.assiette_3{
+    animation-delay: 800ms;
 }
 
 .assiette_titre_description{
@@ -188,10 +208,10 @@ h1{
 .assiette:hover .coche{
     display: flex;
     transform-origin: right;
-    animation: slide 300ms;
+    animation: slideleft 300ms;
 }
 
-@keyframes slide {
+@keyframes slideleft {
     0%{
         transform: scalex(0);
     }

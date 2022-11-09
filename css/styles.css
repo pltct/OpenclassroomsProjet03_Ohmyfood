@@ -99,7 +99,8 @@ input{
     list-style-type: none;
     box-shadow: 0 5px 10px rgb(195, 195, 195);
     position: relative;
-    cursor: pointer;  
+    cursor: pointer;
+    width: 100%;
 }
     
 #section_fonctionnement .fa-solid{
@@ -111,7 +112,7 @@ input{
 #section_fonctionnement a{
     text-decoration: none;
     color: black;
-    align-items: center;
+    width: 100%;
 }
 
 #section_fonctionnement .choix:hover .choix_icon{
@@ -178,8 +179,10 @@ input{
 #restaurant_4{
     border-radius: 10px;
     height: 270px;
+    width: 100%;
     margin-top: 30px;
-    box-shadow: 0 5px 10px rgb(195, 195, 195);
+    box-shadow: 0 5px 10px rgb(195, 195, 195);    
+    position: relative;
 }
     
 #restaurant_1 a,
@@ -265,13 +268,6 @@ figcaption{
     100% {
         transform: scale(1);
     }
-}
-
-#restaurant_1,
-#restaurant_2,
-#restaurant_3,
-#restaurant_4{
-    position: relative;
 }
 
 #section_restaurant_1_2 .nouveau{
@@ -416,4 +412,45 @@ figcaption{
 .fa-handshake-angle{
     font-size: 15px;
     width: 28px;
+}
+
+
+        /* ECRAN SUPERIEUR 768PX */
+
+@media screen and (min-width: 768px){
+    #section_restaurant_1_2,
+    #section_restaurant_3_4{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #restaurant_1,
+    #restaurant_2,
+    #restaurant_3,
+    #restaurant_4{
+        width: 48.5%;
+    }
+}
+
+
+        /* ECRAN SUPERIEUR 1024PX */
+   
+
+@media screen and (min-width: 1024px){
+    #section_fonctionnement ul{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #section_fonctionnement a{
+        flex-basis: 31.5%;
+    }
+    #section_fonctionnement .choix{
+        flex-basis: 31.5%;
+    }
+
+    #bloc_footer ul{
+        display: flex;
+        justify-content: space-between;
+    }
 }

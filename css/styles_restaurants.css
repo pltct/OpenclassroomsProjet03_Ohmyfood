@@ -144,6 +144,7 @@ h1{
     cursor: pointer;
     animation: slideup 2s forwards;
     opacity: 0;
+    overflow: hidden;
 } 
 
 @keyframes slideup {
@@ -193,9 +194,11 @@ h1{
     border-radius: 0 15px 15px 0;
     width: 20%;
     background-color: #99E2D0;
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: -20%;
+    transition: margin-right 300ms;
 }
 
 
@@ -210,23 +213,11 @@ h1{
 }
 
 .assiette:hover .coche{
-    display: flex;
-    transform-origin: right;
-    animation: slideleft 300ms;
-}
-
-@keyframes slideleft {
-    0%{
-        transform: scalex(0);
-    }
-    100%{
-        transform: scalex(1);
-
-    }
+    margin-right: 0;
 }
 
 .assiette:hover .valider{
-    animation: rotation 300ms;
+    animation: rotation 400ms;
 }
 
 @keyframes rotation {
@@ -237,13 +228,6 @@ h1{
         transform: rotate(0deg);
 
     }
-}
-
-
-.assiette:hover .assiette_description h3,
-.assiette_description p{
-    overflow:hidden;
-    text-overflow:ellipsis;
 }
 
 .prix{

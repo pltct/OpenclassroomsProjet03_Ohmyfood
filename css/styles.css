@@ -172,6 +172,10 @@ input{
     border-radius: 10px 10px 0 0;
     height: 70%;
 }
+
+.carte_restaurant{
+    position: relative;
+}
     
 #restaurant_1,
 #restaurant_2,
@@ -185,10 +189,7 @@ input{
     position: relative;
 }
     
-#restaurant_1 a,
-#restaurant_2 a,
-#restaurant_3 a,
-#restaurant_4 a{
+#section_restaurant a{
     text-decoration: none;
     color: black;
 }
@@ -208,6 +209,7 @@ figcaption{
 
 .coeur{
     display: flex;
+    cursor: pointer;
 }
 
 #section_restaurant .coeur{

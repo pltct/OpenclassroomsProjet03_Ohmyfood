@@ -426,11 +426,8 @@ figcaption{
         justify-content: space-between;
     }
 
-    #restaurant_1,
-    #restaurant_2,
-    #restaurant_3,
-    #restaurant_4{
-        width: 48.5%;
+    .carte_restaurant{
+        width: 48%;
     }
 }
 
